@@ -1,0 +1,4439 @@
+{
+ "url": "http://127.0.0.1:4173/",
+ "at": "2026-10-24T21:48:30.236Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    0.39,
+    0.35,
+    0.66,
+    0.65,
+    0.8,
+    0.57,
+    0.29,
+    0.79,
+    0.59
+   ],
+   "motion": {
+    "elements": 26,
+    "css": 2,
+    "transitions": 24,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 8073,
+     "screens": 9,
+     "words": 466,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 9,
+     "horizontalOverflow": 294,
+     "overflowCulprits": [
+      "strong (+294px)",
+      "span (+294px)"
+     ],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Repair, without the runaround.",
+     "words": 4,
+     "chars": 30,
+     "lines": 3,
+     "size": 129.6,
+     "vw": 9,
+     "font": "Inter Tight",
+     "weight": 700,
+     "tracking": -0.06,
+     "leading": 0.86,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.47,
+     "top": 241,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Repair, without the runaround.",
+     "words": 4,
+     "lines": 3,
+     "size": 129.6,
+     "font": "Inter Tight"
+    },
+    "headings": [
+     {
+      "text": "Repair, without the runaround.",
+      "words": 4,
+      "chars": 30,
+      "lines": 3,
+      "size": 129.6,
+      "vw": 9,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.06,
+      "leading": 0.86,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 241,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "What stopped working?",
+      "words": 3,
+      "chars": 21,
+      "lines": 2,
+      "size": 86.4,
+      "vw": 6,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.47,
+      "top": 1156,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Washer",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 31.7,
+      "vw": 2.2,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 1450,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Dryer",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 31.7,
+      "vw": 2.2,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 1532,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Start with what you can see.",
+      "words": 6,
+      "chars": 28,
+      "lines": 2,
+      "size": 70,
+      "vw": 4.9,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.35,
+      "top": 1541,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Refrigerator",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 31.7,
+      "vw": 2.2,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 1614,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Dishwasher",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 31.7,
+      "vw": 2.2,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 1696,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Oven & Range",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 31.7,
+      "vw": 2.2,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 1778,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Cooktop",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 31.7,
+      "vw": 2.2,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 1860,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Microwave",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 31.7,
+      "vw": 2.2,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 1942,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Other",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 31.7,
+      "vw": 2.2,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 2024,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "From broken to working.",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 86.4,
+      "vw": 6,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.39,
+      "top": 2425,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Your home gets quiet again",
+      "words": 5,
+      "chars": 26,
+      "lines": 3,
+      "size": 43.2,
+      "vw": 3,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.2,
+      "top": 2718,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "You name the problem",
+      "words": 4,
+      "chars": 20,
+      "lines": 2,
+      "size": 43.2,
+      "vw": 3,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.2,
+      "top": 2735,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "A master calls you",
+      "words": 4,
+      "chars": 18,
+      "lines": 2,
+      "size": 43.2,
+      "vw": 3,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.2,
+      "top": 2735,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Small details. Less disruption.",
+      "words": 4,
+      "chars": 31,
+      "lines": 4,
+      "size": 80.6,
+      "vw": 5.6,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.25,
+      "top": 3363,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "{{RATING}}",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 86.4,
+      "vw": 6,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.07,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.28,
+      "top": 3545,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "{{REPAIRS}}",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 86.4,
+      "vw": 6,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.07,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.3,
+      "top": 3545,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "{{MINUTES}}",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 86.4,
+      "vw": 6,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.07,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.32,
+      "top": 3545,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "Good work leaves a mark.",
+      "words": 5,
+      "chars": 24,
+      "lines": 2,
+      "size": 86.4,
+      "vw": 6,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.47,
+      "top": 3993,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "→",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Inter",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.03,
+      "top": 4445,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "Washer will not drain",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 28.8,
+      "vw": 2,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 4626,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Drain pump cleared",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 28.8,
+      "vw": 2,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 4626,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Chicago, IL",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 3.2,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.15,
+      "top": 5036,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Chicago first. More cities next.",
+      "words": 5,
+      "chars": 32,
+      "lines": 2,
+      "size": 80.6,
+      "vw": 5.6,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 5059,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Milwaukee, WI",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 3.2,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.19,
+      "top": 5114,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Indianapolis, IN",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 3.2,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.2,
+      "top": 5192,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Detroit, MI",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 3.2,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.13,
+      "top": 5270,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Questions, answered.",
+      "words": 2,
+      "chars": 20,
+      "lines": 2,
+      "size": 86.4,
+      "vw": 6,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.47,
+      "top": 5678,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "How much is a diagnostic visit?",
+      "words": 6,
+      "chars": 31,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 2.4,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.72,
+      "top": 5882,
+      "tag": "summary",
+      "kind": "heading"
+     },
+     {
+      "text": "How quickly can someone call me?",
+      "words": 6,
+      "chars": 32,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 2.4,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.72,
+      "top": 5972,
+      "tag": "summary",
+      "kind": "heading"
+     },
+     {
+      "text": "Do you repair all appliance brands?",
+      "words": 6,
+      "chars": 35,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 2.4,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.72,
+      "top": 6062,
+      "tag": "summary",
+      "kind": "heading"
+     },
+     {
+      "text": "What if I smell gas or burning?",
+      "words": 7,
+      "chars": 31,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 2.4,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.72,
+      "top": 6152,
+      "tag": "summary",
+      "kind": "heading"
+     },
+     {
+      "text": "Do repairs come with a warranty?",
+      "words": 6,
+      "chars": 32,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 2.4,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.72,
+      "top": 6242,
+      "tag": "summary",
+      "kind": "heading"
+     },
+     {
+      "text": "Let’s get the right person on it.",
+      "words": 7,
+      "chars": 33,
+      "lines": 3,
+      "size": 72,
+      "vw": 5,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 6755,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Start with the appliance.",
+      "words": 4,
+      "chars": 25,
+      "lines": 2,
+      "size": 50.4,
+      "vw": 3.5,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.045,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.3,
+      "top": 6758,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "SUPER MASTER",
+      "words": 2,
+      "chars": 12,
+      "lines": 2,
+      "size": 244.8,
+      "vw": 17,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.1,
+      "leading": 0.72,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 7593,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 37,
+     "maxLines": 4,
+     "over2Lines": 4,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter",
+       "share": 0.56,
+       "mono": false
+      },
+      {
+       "family": "Inter Tight",
+       "share": 0.25,
+       "mono": false
+      },
+      {
+       "family": "JetBrains Mono",
+       "share": 0.18,
+       "mono": true
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      18,
+      24,
+      29,
+      32,
+      35,
+      40,
+      43,
+      46,
+      50,
+      70,
+      72,
+      81,
+      86,
+      130,
+      245
+     ],
+     "sizeCount": 22,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter",
+      "size": 16,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.2
+     },
+     "measureChars": 69,
+     "max": {
+      "size": 244.8,
+      "vw": 17,
+      "font": "Inter Tight",
+      "text": "SUPER"
+     },
+     "monoShare": 0.18,
+     "monoProseShare": 0.18,
+     "monoFamilies": [
+      "JetBrains Mono"
+     ],
+     "monoSamples": [
+      "SM",
+      "APPLIANCE REPAIR",
+      "Appliance repair / Chicago, IL",
+      "PARTS READY",
+      "00:42",
+      "ASSEMBLY COMPLETE / READY"
+     ],
+     "microLabels": 15,
+     "microLabelShare": 0.094,
+     "microSamples": [
+      "Appliance repair / Chicago, IL",
+      "PARTS READY",
+      "ASSEMBLY COMPLETE / READY",
+      "We work across",
+      "Start with the symptom",
+      "Choose an appliance"
+     ],
+     "upperShare": 0.18,
+     "centerShare": 0.01,
+     "smallText": 28
+    },
+    "eyebrows": [
+     {
+      "text": "Appliance repair / Chicago, IL",
+      "above": "Repair, without the runaround.",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 207
+     },
+     {
+      "text": "Choose an appliance",
+      "above": "Start with what you can see.",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 1483
+     },
+     {
+      "text": "03",
+      "above": "Your home gets quiet again",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 13,
+      "top": 2671
+     },
+     {
+      "text": "01",
+      "above": "You name the problem",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 13,
+      "top": 2671
+     },
+     {
+      "text": "02",
+      "above": "A master calls you",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 13,
+      "top": 2671
+     },
+     {
+      "text": "Built for the urgent jobs",
+      "above": "Small details. Less disruption.",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 3329
+     },
+     {
+      "text": "Where we work",
+      "above": "Chicago first. More cities next.",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 5025
+     },
+     {
+      "text": "Before you book",
+      "above": "How much is a diagnostic visit?",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 5678
+     },
+     {
+      "text": "01 / 04",
+      "above": "Let’s get the right person on it.",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 13,
+      "top": 6720
+     },
+     {
+      "text": "What's broken",
+      "above": "Start with the appliance.",
+      "upper": true,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 6736
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 11,
+      "top": 1462
+     },
+     {
+      "text": "02",
+      "size": 11,
+      "top": 1544
+     },
+     {
+      "text": "03",
+      "size": 11,
+      "top": 1626
+     },
+     {
+      "text": "04",
+      "size": 11,
+      "top": 1708
+     },
+     {
+      "text": "05",
+      "size": 11,
+      "top": 1790
+     },
+     {
+      "text": "06",
+      "size": 11,
+      "top": 1872
+     },
+     {
+      "text": "07",
+      "size": 11,
+      "top": 1954
+     },
+     {
+      "text": "08",
+      "size": 11,
+      "top": 2036
+     },
+     {
+      "text": "01 / 02",
+      "size": 11,
+      "top": 1483
+     },
+     {
+      "text": "01",
+      "size": 13,
+      "top": 2671
+     },
+     {
+      "text": "02",
+      "size": 13,
+      "top": 2671
+     },
+     {
+      "text": "03",
+      "size": 13,
+      "top": 2671
+     }
+    ],
+    "color": {
+     "bodyBg": "#0a0b0d",
+     "bodyBgHsl": {
+      "h": 220,
+      "s": 0.13,
+      "l": 0.05
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#111318",
+       "top": 1428,
+       "hsl": {
+        "h": 223,
+        "s": 0.17,
+        "l": 0.08
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#8b91a0",
+       "share": 0.69
+      },
+      {
+       "color": "#f4f5f7",
+       "share": 0.21
+      },
+      {
+       "color": "#0a0b0d",
+       "share": 0.03
+      },
+      {
+       "color": "#ff6a2b",
+       "share": 0.03
+      },
+      {
+       "color": "#55301f",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#ff6a2b",
+      "hsl": {
+       "h": 18,
+       "s": 1,
+       "l": 0.58
+      },
+      "fg": "#0a0b0d"
+     },
+     "lowContrast": [
+      {
+       "text": "AFTER",
+       "ratio": 2.4,
+       "need": 4.5,
+       "size": 11,
+       "fg": "#8b91a0",
+       "bg": "#dfe3e1"
+      },
+      {
+       "text": "We confirm the details, availability, an",
+       "ratio": 4,
+       "need": 4.5,
+       "size": 16,
+       "fg": "#55301f",
+       "bg": "#ff6a2b"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book a repair",
+      "Find a master ↗"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 1,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "div.washer → rgba(255, 255, 255, 0.28) 8px 0px 22px 0px inset, rgba(0, 0, 0, 0.3) 20px 35px 5"
+     ],
+     "gradients": 5,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.machine-glow → radial-gradient(circle, color(srgb 1 0.415686 0.168627 / 0.18), rgba(0, 0, 0, 0) 68%)",
+      "div.washer → linear-gradient(120deg, rgb(227, 228, 230), rgb(140, 144, 151))",
+      "span → radial-gradient(circle at 40% 35%, rgb(82, 98, 108), rgb(22, 26, 34) 64%)",
+      "div.fix-drum → radial-gradient(circle at 40% 30%, rgb(52, 56, 66) 0px, rgb(52, 56, 66) 10%, rgb(25, 27, 32) 11%, rgb(25, 27, "
+     ],
+     "gradientText": 0,
+     "hairlines": 26,
+     "hairlineSamples": [
+      "header.site-header 1440px",
+      "section.brand-strip 1440px",
+      "div.selector-list 746px",
+      "button.appliance-row 746px",
+      "button.appliance-row 746px"
+     ],
+     "outlinedBoxes": 2,
+     "dashed": 8,
+     "blurred": 1,
+     "roundedBoxes": 9,
+     "boxRadius": 24,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 2628
+      },
+      {
+       "count": 5,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 5881
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 6,
+     "fixed": true,
+     "height": 76,
+     "floatingPill": false,
+     "blur": true
+    },
+    "fontsLoaded": [
+     "inter",
+     "inter tight",
+     "jetbrains mono"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 8073,
+    "margins": {
+     "left": 32,
+     "right": 32
+    },
+    "sections": [
+     {
+      "sel": "section.hero.section-wrap",
+      "tag": "section",
+      "top": 76,
+      "height": 824,
+      "words": 40,
+      "media": 0,
+      "middle": 279,
+      "heading": {
+       "text": "Repair, without the runaround.",
+       "size": 130,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 86,
+      "textLeft": 32,
+      "textRight": 86,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#selector.section-wrap.selector-section",
+      "tag": "section",
+      "top": 986,
+      "height": 1269,
+      "words": 72,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "What stopped working?",
+       "size": 86,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 87,
+      "textLeft": 32,
+      "textRight": 87,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#how-it-works.how-section",
+      "tag": "section",
+      "top": 2255,
+      "height": 904,
+      "words": 75,
+      "media": 0,
+      "middle": 130,
+      "heading": {
+       "text": "From broken to working.",
+       "size": 86,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 136,
+      "textLeft": 32,
+      "textRight": 136,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.numbers-section.section-wrap",
+      "tag": "section",
+      "top": 3159,
+      "height": 664,
+      "words": 18,
+      "media": 0,
+      "middle": 20,
+      "heading": {
+       "text": "{{RATING}}",
+       "size": 86,
+       "tag": "strong"
+      },
+      "left": 32,
+      "right": 0,
+      "textLeft": 32,
+      "textRight": -294,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.selector-section.selector-section--light",
+      "tag": "section",
+      "top": 3823,
+      "height": 1032,
+      "words": 35,
+      "media": 0,
+      "middle": 180,
+      "heading": {
+       "text": "Good work leaves a mark.",
+       "size": 86,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 307,
+      "textLeft": 32,
+      "textRight": 307,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.cities-section.section-wrap",
+      "tag": "section",
+      "top": 4855,
+      "height": 653,
+      "words": 42,
+      "media": 0,
+      "middle": 161,
+      "heading": {
+       "text": "Chicago first.",
+       "size": 81,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 36,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#faq.faq-section.section-wrap",
+      "tag": "section",
+      "top": 5508,
+      "height": 995,
+      "words": 135,
+      "media": 0,
+      "middle": 235,
+      "heading": {
+       "text": "Questions, answered.",
+       "size": 86,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 512,
+      "textLeft": 32,
+      "textRight": 512,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section",
+      "tag": "section",
+      "top": 6502,
+      "height": 906,
+      "words": 54,
+      "media": 0,
+      "middle": 101,
+      "heading": {
+       "text": "Let’s get the right person on it.",
+       "size": 72,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 73,
+      "textLeft": 32,
+      "textRight": 73,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer.section-wrap",
+      "tag": "footer",
+      "top": 7409,
+      "height": 664,
+      "words": 22,
+      "media": 0,
+      "middle": 360,
+      "heading": {
+       "text": "SUPER",
+       "size": 245,
+       "tag": "div"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Repair, without the runaround.",
+      "size": 130,
+      "top": 241,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 8
+     },
+     {
+      "x": 504,
+      "n": 6
+     },
+     {
+      "x": 376,
+      "n": 5
+     },
+     {
+      "x": 540,
+      "n": 3
+     },
+     {
+      "x": 75,
+      "n": 2
+     },
+     {
+      "x": 853,
+      "n": 2
+     },
+     {
+      "x": 1006,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 28,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.19,
+    "voidBox": {
+     "x": 1020,
+     "y": 300,
+     "w": 420,
+     "h": 600
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.35,
+    0.35,
+    0.84,
+    0.72,
+    0.61,
+    0.32,
+    0.76,
+    0.77
+   ],
+   "motion": {
+    "elements": 26,
+    "css": 2,
+    "transitions": 24,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 7912,
+     "screens": 7.7,
+     "words": 457,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 9,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Repair, without the runaround.",
+     "words": 4,
+     "chars": 30,
+     "lines": 3,
+     "size": 69.1,
+     "vw": 9,
+     "font": "Inter Tight",
+     "weight": 700,
+     "tracking": -0.06,
+     "leading": 0.86,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.47,
+     "top": 692,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Repair, without the runaround.",
+     "words": 4,
+     "lines": 3,
+     "size": 69.1,
+     "font": "Inter Tight"
+    },
+    "headings": [
+     {
+      "text": "Repair, without the runaround.",
+      "words": 4,
+      "chars": 30,
+      "lines": 3,
+      "size": 69.1,
+      "vw": 9,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.06,
+      "leading": 0.86,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 692,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "What stopped working?",
+      "words": 3,
+      "chars": 21,
+      "lines": 2,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 1354,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Start with what you can see.",
+      "words": 6,
+      "chars": 28,
+      "lines": 2,
+      "size": 38.4,
+      "vw": 5,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.34,
+      "top": 1638,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "From broken to working.",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 2436,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "You name the problem",
+      "words": 4,
+      "chars": 20,
+      "lines": 2,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.24,
+      "top": 2645,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "A master calls you",
+      "words": 4,
+      "chars": 18,
+      "lines": 2,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.24,
+      "top": 2937,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Your home gets quiet again",
+      "words": 5,
+      "chars": 26,
+      "lines": 3,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.24,
+      "top": 3226,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Small details. Less disruption.",
+      "words": 4,
+      "chars": 31,
+      "lines": 2,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 3652,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "{{RATING}}",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.07,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 3770,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "{{REPAIRS}}",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.07,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.31,
+      "top": 3770,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "{{MINUTES}}",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.07,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.33,
+      "top": 3770,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "Good work leaves a mark.",
+      "words": 5,
+      "chars": 24,
+      "lines": 2,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 4073,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "→",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Inter",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.05,
+      "top": 4388,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "Chicago first. More cities next.",
+      "words": 5,
+      "chars": 32,
+      "lines": 2,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 4786,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Chicago, IL",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.15,
+      "top": 5056,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Milwaukee, WI",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.2,
+      "top": 5134,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Indianapolis, IN",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 5212,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Detroit, MI",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.14,
+      "top": 5290,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Questions, answered.",
+      "words": 2,
+      "chars": 20,
+      "lines": 2,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 5576,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Let’s get the right person on it.",
+      "words": 7,
+      "chars": 33,
+      "lines": 2,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.49,
+      "top": 6393,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Start with the appliance.",
+      "words": 4,
+      "chars": 25,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.045,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 6924,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "SUPER MASTER",
+      "words": 2,
+      "chars": 12,
+      "lines": 2,
+      "size": 130.6,
+      "vw": 17,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.1,
+      "leading": 0.72,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 7597,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 22,
+     "maxLines": 3,
+     "over2Lines": 2,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter",
+       "share": 0.56,
+       "mono": false
+      },
+      {
+       "family": "Inter Tight",
+       "share": 0.26,
+       "mono": false
+      },
+      {
+       "family": "JetBrains Mono",
+       "share": 0.19,
+       "mono": true
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28,
+      30,
+      38,
+      40,
+      48,
+      69,
+      131
+     ],
+     "sizeCount": 19,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter",
+      "size": 16,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.2
+     },
+     "measureChars": 69,
+     "max": {
+      "size": 130.6,
+      "vw": 17,
+      "font": "Inter Tight",
+      "text": "SUPER"
+     },
+     "monoShare": 0.19,
+     "monoProseShare": 0.19,
+     "monoFamilies": [
+      "JetBrains Mono"
+     ],
+     "monoSamples": [
+      "SM",
+      "APPLIANCE REPAIR",
+      "Appliance repair / Chicago, IL",
+      "PARTS READY",
+      "00:42",
+      "ASSEMBLY COMPLETE / READY"
+     ],
+     "microLabels": 15,
+     "microLabelShare": 0.095,
+     "microSamples": [
+      "Appliance repair / Chicago, IL",
+      "PARTS READY",
+      "ASSEMBLY COMPLETE / READY",
+      "We work across",
+      "Start with the symptom",
+      "Choose an appliance"
+     ],
+     "upperShare": 0.18,
+     "centerShare": 0.01,
+     "smallText": 28
+    },
+    "eyebrows": [
+     {
+      "text": "Appliance repair / Chicago, IL",
+      "above": "Repair, without the runaround.",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 658
+     },
+     {
+      "text": "Start with the symptom",
+      "above": "What stopped working?",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 1308
+     },
+     {
+      "text": "Choose an appliance",
+      "above": "Start with what you can see.",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 1580
+     },
+     {
+      "text": "No mystery process",
+      "above": "From broken to working.",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 2390
+     },
+     {
+      "text": "01",
+      "above": "You name the problem",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 13,
+      "top": 2594
+     },
+     {
+      "text": "02",
+      "above": "A master calls you",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 13,
+      "top": 2886
+     },
+     {
+      "text": "03",
+      "above": "Your home gets quiet again",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 13,
+      "top": 3178
+     },
+     {
+      "text": "Built for the urgent jobs",
+      "above": "Small details. Less disruption.",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 3618
+     },
+     {
+      "text": "A repair you can see",
+      "above": "Good work leaves a mark.",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 4027
+     },
+     {
+      "text": "Where we work",
+      "above": "Chicago first. More cities next.",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 4752
+     },
+     {
+      "text": "Before you book",
+      "above": "Questions, answered.",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 5530
+     },
+     {
+      "text": "01 / 04",
+      "above": "Let’s get the right person on it.",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 13,
+      "top": 6358
+     },
+     {
+      "text": "What's broken",
+      "above": "Start with the appliance.",
+      "upper": true,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 6902
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 11,
+      "top": 1583
+     },
+     {
+      "text": "02",
+      "size": 11,
+      "top": 1665
+     },
+     {
+      "text": "03",
+      "size": 11,
+      "top": 1747
+     },
+     {
+      "text": "04",
+      "size": 11,
+      "top": 1829
+     },
+     {
+      "text": "05",
+      "size": 11,
+      "top": 1911
+     },
+     {
+      "text": "06",
+      "size": 11,
+      "top": 1993
+     },
+     {
+      "text": "07",
+      "size": 11,
+      "top": 2075
+     },
+     {
+      "text": "08",
+      "size": 11,
+      "top": 2157
+     },
+     {
+      "text": "01 / 02",
+      "size": 11,
+      "top": 1580
+     },
+     {
+      "text": "01",
+      "size": 13,
+      "top": 2594
+     },
+     {
+      "text": "02",
+      "size": 13,
+      "top": 2886
+     },
+     {
+      "text": "03",
+      "size": 13,
+      "top": 3178
+     }
+    ],
+    "color": {
+     "bodyBg": "#0a0b0d",
+     "bodyBgHsl": {
+      "h": 220,
+      "s": 0.13,
+      "l": 0.05
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#111318",
+       "top": 2297,
+       "hsl": {
+        "h": 223,
+        "s": 0.17,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#181b22",
+       "top": 6879,
+       "hsl": {
+        "h": 222,
+        "s": 0.17,
+        "l": 0.11
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#8b91a0",
+       "share": 0.69
+      },
+      {
+       "color": "#f4f5f7",
+       "share": 0.22
+      },
+      {
+       "color": "#0a0b0d",
+       "share": 0.03
+      },
+      {
+       "color": "#ff6a2b",
+       "share": 0.03
+      },
+      {
+       "color": "#55301f",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#ff6a2b",
+      "hsl": {
+       "h": 18,
+       "s": 1,
+       "l": 0.58
+      },
+      "fg": "#0a0b0d"
+     },
+     "lowContrast": [
+      {
+       "text": "AFTER",
+       "ratio": 2.4,
+       "need": 4.5,
+       "size": 11,
+       "fg": "#8b91a0",
+       "bg": "#dfe3e1"
+      },
+      {
+       "text": "We confirm the details, availability, an",
+       "ratio": 4,
+       "need": 4.5,
+       "size": 16,
+       "fg": "#55301f",
+       "bg": "#ff6a2b"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book a repair",
+      "Find a master ↗"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 1,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "div.washer → rgba(255, 255, 255, 0.28) 8px 0px 22px 0px inset, rgba(0, 0, 0, 0.3) 20px 35px 5"
+     ],
+     "gradients": 5,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.machine-glow → radial-gradient(circle, color(srgb 1 0.415686 0.168627 / 0.18), rgba(0, 0, 0, 0) 68%)",
+      "div.washer → linear-gradient(120deg, rgb(227, 228, 230), rgb(140, 144, 151))",
+      "span → radial-gradient(circle at 40% 35%, rgb(82, 98, 108), rgb(22, 26, 34) 64%)",
+      "div.fix-drum → radial-gradient(circle at 40% 30%, rgb(52, 56, 66) 0px, rgb(52, 56, 66) 10%, rgb(25, 27, 32) 11%, rgb(25, 27, "
+     ],
+     "gradientText": 0,
+     "hairlines": 24,
+     "hairlineSamples": [
+      "header.site-header 768px",
+      "section.brand-strip 768px",
+      "div.selector-list 397px",
+      "button.appliance-row 397px",
+      "button.appliance-row 397px"
+     ],
+     "outlinedBoxes": 2,
+     "dashed": 8,
+     "blurred": 1,
+     "roundedBoxes": 9,
+     "boxRadius": 24,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 76,
+     "floatingPill": false,
+     "blur": true
+    },
+    "fontsLoaded": [
+     "inter",
+     "inter tight",
+     "jetbrains mono"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 7912,
+    "margins": {
+     "left": 17,
+     "right": 17
+    },
+    "sections": [
+     {
+      "sel": "section.hero.section-wrap",
+      "tag": "section",
+      "top": 76,
+      "height": 1054,
+      "words": 40,
+      "media": 0,
+      "middle": 123,
+      "heading": null,
+      "left": 17,
+      "right": 76,
+      "textLeft": 17,
+      "textRight": 76,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#selector.section-wrap.selector-section",
+      "tag": "section",
+      "top": 1216,
+      "height": 1082,
+      "words": 72,
+      "media": 0,
+      "middle": 44,
+      "heading": {
+       "text": "What stopped working?",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 49,
+      "textLeft": 17,
+      "textRight": 49,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#how-it-works.how-section",
+      "tag": "section",
+      "top": 2297,
+      "height": 1229,
+      "words": 75,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "From broken to working.",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 428,
+      "textLeft": 17,
+      "textRight": 428,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.numbers-section.section-wrap",
+      "tag": "section",
+      "top": 3526,
+      "height": 409,
+      "words": 18,
+      "media": 0,
+      "middle": 12,
+      "heading": {
+       "text": "Small details.",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 12,
+      "textLeft": 17,
+      "textRight": 12,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.selector-section.selector-section--light",
+      "tag": "section",
+      "top": 3935,
+      "height": 725,
+      "words": 35,
+      "media": 0,
+      "middle": 26,
+      "heading": {
+       "text": "Good work leaves a mark.",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 142,
+      "textLeft": 17,
+      "textRight": 142,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.cities-section.section-wrap",
+      "tag": "section",
+      "top": 4660,
+      "height": 778,
+      "words": 42,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Chicago first.",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 17,
+      "textLeft": 17,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#faq.faq-section.section-wrap",
+      "tag": "section",
+      "top": 5437,
+      "height": 781,
+      "words": 135,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Questions, answered.",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 199,
+      "textLeft": 17,
+      "textRight": 199,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section",
+      "tag": "section",
+      "top": 6218,
+      "height": 1195,
+      "words": 54,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Let’s get the right person on it.",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 40,
+      "textLeft": 17,
+      "textRight": 41,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer.section-wrap",
+      "tag": "footer",
+      "top": 7413,
+      "height": 500,
+      "words": 22,
+      "media": 0,
+      "middle": 74,
+      "heading": {
+       "text": "SUPER",
+       "size": 131,
+       "tag": "div"
+      },
+      "left": 17,
+      "right": 17,
+      "textLeft": 17,
+      "textRight": 17,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Repair, without the runaround.",
+      "size": 69,
+      "top": 692,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 17,
+      "n": 19
+     },
+     {
+      "x": 40,
+      "n": 7
+     },
+     {
+      "x": 458,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 28,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 11,
+   "filled": [
+    0.55,
+    0.61,
+    0.71,
+    0.84,
+    0.65,
+    0.84,
+    0.48,
+    0.51,
+    0.66,
+    0.61,
+    0.54
+   ],
+   "motion": {
+    "elements": 26,
+    "css": 2,
+    "transitions": 24,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 459,
+     "h": 994
+    },
+    "page": {
+     "height": 8597,
+     "screens": 8.6,
+     "words": 445,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 9,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Repair, without the runaround.",
+     "words": 4,
+     "chars": 30,
+     "lines": 4,
+     "size": 66.3,
+     "vw": 14.4,
+     "font": "Inter Tight",
+     "weight": 700,
+     "tracking": -0.06,
+     "leading": 0.86,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.66,
+     "top": 469,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Repair, without the runaround.",
+     "words": 4,
+     "lines": 4,
+     "size": 66.3,
+     "font": "Inter Tight"
+    },
+    "headings": [
+     {
+      "text": "Repair, without the runaround.",
+      "words": 4,
+      "chars": 30,
+      "lines": 4,
+      "size": 66.3,
+      "vw": 14.4,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.06,
+      "leading": 0.86,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.66,
+      "top": 469,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Book a repair ↗",
+      "words": 4,
+      "chars": 15,
+      "lines": 1,
+      "size": 22,
+      "vw": 4.8,
+      "font": "Inter",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 930,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "What stopped working?",
+      "words": 3,
+      "chars": 21,
+      "lines": 2,
+      "size": 58.5,
+      "vw": 12.7,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 1187,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Start with what you can see.",
+      "words": 6,
+      "chars": 28,
+      "lines": 2,
+      "size": 36,
+      "vw": 7.8,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.7,
+      "top": 1943,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "From $89",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 24,
+      "vw": 5.2,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.24,
+      "top": 2226,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "From broken to working.",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 58.5,
+      "vw": 12.7,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 2506,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "You name the problem",
+      "words": 4,
+      "chars": 20,
+      "lines": 2,
+      "size": 28,
+      "vw": 6.1,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 2718,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "A master calls you",
+      "words": 4,
+      "chars": 18,
+      "lines": 2,
+      "size": 28,
+      "vw": 6.1,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 3010,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Your home gets quiet again",
+      "words": 5,
+      "chars": 26,
+      "lines": 3,
+      "size": 28,
+      "vw": 6.1,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 3299,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Small details. Less disruption.",
+      "words": 4,
+      "chars": 31,
+      "lines": 2,
+      "size": 48,
+      "vw": 10.5,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 3721,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "{{RATING}}",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 72,
+      "vw": 15.7,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.07,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.72,
+      "top": 3838,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "{{REPAIRS}}",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 72,
+      "vw": 15.7,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.07,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 3952,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "{{MINUTES}}",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 72,
+      "vw": 15.7,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.07,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.84,
+      "top": 4079,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "Good work leaves a mark.",
+      "words": 5,
+      "chars": 24,
+      "lines": 2,
+      "size": 58.5,
+      "vw": 12.7,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 4383,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "→",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 40,
+      "vw": 8.7,
+      "font": "Inter",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.13,
+      "top": 4703,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "Chicago first. More cities next.",
+      "words": 5,
+      "chars": 32,
+      "lines": 2,
+      "size": 48,
+      "vw": 10.5,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 5398,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Chicago, IL",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 26,
+      "vw": 5.7,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 5668,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Milwaukee, WI",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 26,
+      "vw": 5.7,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.34,
+      "top": 5746,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Indianapolis, IN",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 26,
+      "vw": 5.7,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.35,
+      "top": 5824,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Detroit, MI",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 26,
+      "vw": 5.7,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.24,
+      "top": 5902,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Questions, answered.",
+      "words": 2,
+      "chars": 20,
+      "lines": 2,
+      "size": 58.5,
+      "vw": 12.7,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 6183,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "How much is a diagnostic visit?",
+      "words": 6,
+      "chars": 31,
+      "lines": 1,
+      "size": 22,
+      "vw": 4.8,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 6321,
+      "tag": "summary",
+      "kind": "heading"
+     },
+     {
+      "text": "How quickly can someone call me?",
+      "words": 6,
+      "chars": 32,
+      "lines": 2,
+      "size": 22,
+      "vw": 4.8,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 6404,
+      "tag": "summary",
+      "kind": "heading"
+     },
+     {
+      "text": "Do you repair all appliance brands?",
+      "words": 6,
+      "chars": 35,
+      "lines": 1,
+      "size": 22,
+      "vw": 4.8,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 6505,
+      "tag": "summary",
+      "kind": "heading"
+     },
+     {
+      "text": "What if I smell gas or burning?",
+      "words": 7,
+      "chars": 31,
+      "lines": 1,
+      "size": 22,
+      "vw": 4.8,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 6588,
+      "tag": "summary",
+      "kind": "heading"
+     },
+     {
+      "text": "Do repairs come with a warranty?",
+      "words": 6,
+      "chars": 32,
+      "lines": 1,
+      "size": 22,
+      "vw": 4.8,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 6671,
+      "tag": "summary",
+      "kind": "heading"
+     },
+     {
+      "text": "Let’s get the right person on it.",
+      "words": 7,
+      "chars": 33,
+      "lines": 2,
+      "size": 48,
+      "vw": 10.5,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 7017,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Start with the appliance.",
+      "words": 4,
+      "chars": 25,
+      "lines": 1,
+      "size": 30,
+      "vw": 6.5,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.045,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.68,
+      "top": 7547,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "SUPER MASTER",
+      "words": 2,
+      "chars": 12,
+      "lines": 2,
+      "size": 74.1,
+      "vw": 16.1,
+      "font": "Inter Tight",
+      "weight": 700,
+      "tracking": -0.1,
+      "leading": 0.72,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 8246,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 29,
+     "maxLines": 4,
+     "over2Lines": 2,
+     "statements": 0,
+     "centered": 1,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter",
+       "share": 0.57,
+       "mono": false
+      },
+      {
+       "family": "Inter Tight",
+       "share": 0.26,
+       "mono": false
+      },
+      {
+       "family": "JetBrains Mono",
+       "share": 0.17,
+       "mono": true
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      16,
+      19,
+      20,
+      22,
+      24,
+      26,
+      28,
+      30,
+      36,
+      40,
+      48,
+      59,
+      66,
+      72,
+      74
+     ],
+     "sizeCount": 21,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter",
+      "size": 16,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.2
+     },
+     "measureChars": 45,
+     "max": {
+      "size": 74.1,
+      "vw": 16.1,
+      "font": "Inter Tight",
+      "text": "SUPER"
+     },
+     "monoShare": 0.17,
+     "monoProseShare": 0.17,
+     "monoFamilies": [
+      "JetBrains Mono"
+     ],
+     "monoSamples": [
+      "SM",
+      "Appliance repair / Chicago, IL",
+      "PARTS READY",
+      "00:42",
+      "ASSEMBLY COMPLETE / READY",
+      "Start with the symptom"
+     ],
+     "microLabels": 14,
+     "microLabelShare": 0.092,
+     "microSamples": [
+      "Appliance repair / Chicago, IL",
+      "PARTS READY",
+      "ASSEMBLY COMPLETE / READY",
+      "Start with the symptom",
+      "Choose an appliance",
+      "01 / 02"
+     ],
+     "upperShare": 0.17,
+     "centerShare": 0.01,
+     "smallText": 26
+    },
+    "eyebrows": [
+     {
+      "text": "Appliance repair / Chicago, IL",
+      "above": "Repair, without the runaround.",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 435
+     },
+     {
+      "text": "Start with the symptom",
+      "above": "What stopped working?",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 1141
+     },
+     {
+      "text": "Choose an appliance",
+      "above": "Start with what you can see.",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 1885
+     },
+     {
+      "text": "No mystery process",
+      "above": "From broken to working.",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 2460
+     },
+     {
+      "text": "01",
+      "above": "You name the problem",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 13,
+      "top": 2667
+     },
+     {
+      "text": "02",
+      "above": "A master calls you",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 13,
+      "top": 2959
+     },
+     {
+      "text": "03",
+      "above": "Your home gets quiet again",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 13,
+      "top": 3251
+     },
+     {
+      "text": "Built for the urgent jobs",
+      "above": "Small details. Less disruption.",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 3687
+     },
+     {
+      "text": "customer rating",
+      "above": "{{REPAIRS}}",
+      "upper": true,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 12,
+      "top": 3884
+     },
+     {
+      "text": "repairs completed",
+      "above": "{{MINUTES}}",
+      "upper": true,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 12,
+      "top": 3998
+     },
+     {
+      "text": "A repair you can see",
+      "above": "Good work leaves a mark.",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 4337
+     },
+     {
+      "text": "Where we work",
+      "above": "Chicago first. More cities next.",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 5364
+     },
+     {
+      "text": "Before you book",
+      "above": "Questions, answered.",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 6137
+     },
+     {
+      "text": "01 / 04",
+      "above": "Let’s get the right person on it.",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 13,
+      "top": 6982
+     },
+     {
+      "text": "What's broken",
+      "above": "Start with the appliance.",
+      "upper": true,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 11,
+      "top": 7525
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01 / 02",
+      "size": 11,
+      "top": 1885
+     },
+     {
+      "text": "01",
+      "size": 13,
+      "top": 2667
+     },
+     {
+      "text": "02",
+      "size": 13,
+      "top": 2959
+     },
+     {
+      "text": "03",
+      "size": 13,
+      "top": 3251
+     },
+     {
+      "text": "01 / 04",
+      "size": 13,
+      "top": 6982
+     },
+     {
+      "text": "01 / 04",
+      "size": 11,
+      "top": 7219
+     }
+    ],
+    "color": {
+     "bodyBg": "#0a0b0d",
+     "bodyBgHsl": {
+      "h": 220,
+      "s": 0.13,
+      "l": 0.05
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#111318",
+       "top": 1860,
+       "hsl": {
+        "h": 223,
+        "s": 0.17,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#181b22",
+       "top": 7503,
+       "hsl": {
+        "h": 222,
+        "s": 0.17,
+        "l": 0.11
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#8b91a0",
+       "share": 0.68
+      },
+      {
+       "color": "#f4f5f7",
+       "share": 0.22
+      },
+      {
+       "color": "#0a0b0d",
+       "share": 0.03
+      },
+      {
+       "color": "#ff6a2b",
+       "share": 0.03
+      },
+      {
+       "color": "#55301f",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#ff6a2b",
+      "hsl": {
+       "h": 18,
+       "s": 1,
+       "l": 0.58
+      },
+      "fg": "#0a0b0d"
+     },
+     "lowContrast": [
+      {
+       "text": "AFTER",
+       "ratio": 2.4,
+       "need": 4.5,
+       "size": 11,
+       "fg": "#8b91a0",
+       "bg": "#dfe3e1"
+      },
+      {
+       "text": "We confirm the details, availability, an",
+       "ratio": 4,
+       "need": 4.5,
+       "size": 16,
+       "fg": "#55301f",
+       "bg": "#ff6a2b"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 52,
+     "withShadow": 1,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Find a master ↗",
+      "Pause",
+      "Book a repair ↗"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 1,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "div.washer → rgba(255, 255, 255, 0.28) 8px 0px 22px 0px inset, rgba(0, 0, 0, 0.3) 20px 35px 5"
+     ],
+     "gradients": 5,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.machine-glow → radial-gradient(circle, color(srgb 1 0.415686 0.168627 / 0.18), rgba(0, 0, 0, 0) 68%)",
+      "div.washer → linear-gradient(120deg, rgb(227, 228, 230), rgb(140, 144, 151))",
+      "span → radial-gradient(circle at 40% 35%, rgb(82, 98, 108), rgb(22, 26, 34) 64%)",
+      "div.fix-drum → radial-gradient(circle at 40% 30%, rgb(52, 56, 66) 0px, rgb(52, 56, 66) 10%, rgb(25, 27, 32) 11%, rgb(25, 27, "
+     ],
+     "gradientText": 0,
+     "hairlines": 17,
+     "hairlineSamples": [
+      "header.site-header 390px",
+      "section.brand-strip 390px",
+      "div.number-item.reveal 443px",
+      "div.number-item.reveal 443px",
+      "div.number-item.reveal 443px"
+     ],
+     "outlinedBoxes": 10,
+     "dashed": 0,
+     "blurred": 1,
+     "roundedBoxes": 16,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 2370
+      },
+      {
+       "count": 3,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 1502
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 2643
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 65,
+     "floatingPill": false,
+     "blur": true
+    },
+    "fontsLoaded": [
+     "inter",
+     "inter tight",
+     "jetbrains mono"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 459,
+     "h": 994
+    },
+    "pageH": 8597,
+    "margins": {
+     "left": 16,
+     "right": 54
+    },
+    "sections": [
+     {
+      "sel": "section.hero.section-wrap",
+      "tag": "section",
+      "top": 65,
+      "height": 902,
+      "words": 40,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Repair, without the runaround.",
+       "size": 66,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 85,
+      "textLeft": 16,
+      "textRight": 96,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#selector.section-wrap.selector-section",
+      "tag": "section",
+      "top": 1051,
+      "height": 1319,
+      "words": 64,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "What stopped working?",
+       "size": 59,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 72,
+      "textLeft": 16,
+      "textRight": 87,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#how-it-works.how-section",
+      "tag": "section",
+      "top": 2370,
+      "height": 1227,
+      "words": 75,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "From broken to working.",
+       "size": 59,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 120,
+      "textLeft": 16,
+      "textRight": 120,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.numbers-section.section-wrap",
+      "tag": "section",
+      "top": 3597,
+      "height": 650,
+      "words": 18,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "{{RATING}}",
+       "size": 72,
+       "tag": "strong"
+      },
+      "left": 16,
+      "right": 0,
+      "textLeft": 16,
+      "textRight": 0,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.selector-section.selector-section--light",
+      "tag": "section",
+      "top": 4247,
+      "height": 1026,
+      "words": 35,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Good work leaves a mark.",
+       "size": 59,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 104,
+      "textLeft": 16,
+      "textRight": 104,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.cities-section.section-wrap",
+      "tag": "section",
+      "top": 5274,
+      "height": 773,
+      "words": 42,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Chicago first.",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 85,
+      "textLeft": 16,
+      "textRight": 89,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#faq.faq-section.section-wrap",
+      "tag": "section",
+      "top": 6047,
+      "height": 797,
+      "words": 135,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Questions, answered.",
+       "size": 59,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 87,
+      "textLeft": 16,
+      "textRight": 87,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section",
+      "tag": "section",
+      "top": 6844,
+      "height": 1188,
+      "words": 54,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Let’s get the right person on it.",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 106,
+      "textLeft": 16,
+      "textRight": 106,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer.section-wrap",
+      "tag": "footer",
+      "top": 8033,
+      "height": 490,
+      "words": 22,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "SUPER",
+       "size": 74,
+       "tag": "div"
+      },
+      "left": 16,
+      "right": 188,
+      "textLeft": 16,
+      "textRight": 188,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Repair, without the runaround.",
+      "size": 66,
+      "top": 469,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "customer rating",
+      "side": "right",
+      "px": 0
+     },
+     {
+      "text": "average callback",
+      "side": "right",
+      "px": 0
+     }
+    ],
+    "edges": [
+     {
+      "x": 16,
+      "n": 19
+     },
+     {
+      "x": 38,
+      "n": 9
+     }
+    ],
+    "leftBlocks": 28,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 1440,
+   "message": "4 headline(s) wrap past two lines at 1440px: \"Repair, without the runaround.\" → 3 lines (4 words, 129.6px); \"Your home gets quiet again\" → 3 lines (5 words, 43.2px); \"Small details. Less disruption.\" → 4 lines (4 words, 80.6px); \"Let’s get the right person on it.\" → 3 lines (7 words, 72px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 36px or less."
+  },
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "10 eyebrow/kicker label(s) above headings: \"Appliance repair / Chicago, IL\" above \"Repair, without the runaround.\"; \"Choose an appliance\" above \"Start with what you can see.\"; \"03\" above \"Your home gets quiet again\"; \"01\" above \"You name the problem\"; \"02\" above \"A master calls you\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "mono",
+   "width": 1440,
+   "message": "Monospace type outside code: JetBrains Mono — e.g. \"SM\", \"APPLIANCE REPAIR\", \"Appliance repair / Chicago, IL\", \"PARTS READY\"",
+   "fix": "Set it in the text face. Monospace is for literal code inside <pre>/<code> only.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "numbering",
+   "width": 1440,
+   "message": "Decorative index numbers: \"01\", \"02\", \"03\", \"04\", \"05\", \"06\"",
+   "fix": "Remove them. If order truly matters, write it into the words (\"First, …\") or use a real <ol>.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "micro-label",
+   "width": 1440,
+   "message": "15 tiny uppercase letter-spaced labels (e.g. \"Appliance repair / Chicago, IL\", \"PARTS READY\", \"ASSEMBLY COMPLETE / READY\", \"We work across\").",
+   "fix": "Use sentence-case text at a readable size, or delete the label.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "width": 1440,
+   "message": "5 gradient fill(s): div.machine-glow → radial-gradient(circle, color(srgb 1 0.415686 0.168627 / 0.18), rgba(0, 0, 0, 0) 68%) | div.washer → linear-gradient(120deg, rgb(227, 228, 230), rgb(140, 144, 151)) | span → radial-gradient(circle at 40% 35%, rgb(82, 98, 108), rgb(22, 26, 34) 64%)",
+   "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "width": 1440,
+   "message": "1 box-shadow(s) on elements at rest: div.washer → rgba(255, 255, 255, 0.28) 8px 0px 22px 0px inset, rgba(0, 0, 0, 0.3) 20px 35px 5",
+   "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "26 thin rule(s)/divider line(s): header.site-header 1440px | section.brand-strip 1440px | div.selector-list 746px | button.appliance-row 746px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "2 box(es) drawn with a 1px outline.",
+   "fix": "Prefer a filled surface or no box.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "dashed",
+   "width": 1440,
+   "message": "8 dashed/dotted border(s).",
+   "fix": "Remove unless it is a real drop zone.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "card-rows",
+   "width": 1440,
+   "message": "2 rows of identical boxed cards.",
+   "fix": "Vary the composition; not every section is a card grid."
+  },
+  {
+   "level": "FAIL",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Unreadable text: \"AFTER\" 2.4:1 (#8b91a0 on #dfe3e1)",
+   "fix": "Raise contrast to at least 4.5:1 for text, 3:1 for large display.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "font-count",
+   "width": 1440,
+   "message": "3 typefaces in use (Inter, Inter Tight, JetBrains Mono).",
+   "fix": "Two at most.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "22 different font sizes (9, 10, 11, 12, 13, 14, 16, 18, 24, 29, 32, 35, 40, 43, 46, 50, 70, 72, 81, 86, 130, 245).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "grey-body",
+   "width": 1440,
+   "message": "The running text is a soft grey on its ground (6.2:1).",
+   "fix": "Set body copy in the full ink (7:1 or more). Keep the muted ink for secondary notes; pages read thin and unfinished when everything is grey.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 0 picture(s) on the page (0 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "28 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "overflow",
+   "width": 1440,
+   "message": "Page scrolls sideways by 294px at 1440px. Widest offenders: strong (+294px), span (+294px).",
+   "fix": "Constrain the element that is wider than the viewport (max-width: 100%, or overflow: clip on its section)."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 768,
+   "message": "2 headline(s) wrap past two lines at 768px: \"Repair, without the runaround.\" → 3 lines (4 words, 69.1px); \"Your home gets quiet again\" → 3 lines (5 words, 28px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 32px or less."
+  },
+  {
+   "level": "WARN",
+   "id": "lopsided",
+   "width": 768,
+   "message": "A section keeps its content on one side and leaves 428px of the width empty: \"From broken to working.\".",
+   "fix": "Fill the other side with what the section has (its picture, a second column, the figure), or defend the void in one sentence."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 390,
+   "message": "2 headline(s) wrap past two lines at 390px: \"Repair, without the runaround.\" → 4 lines (4 words, 66.3px); \"Your home gets quiet again\" → 3 lines (5 words, 28px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  },
+  {
+   "level": "FAIL",
+   "id": "button-fx",
+   "width": 390,
+   "message": "Buttons with shadow/glow.",
+   "fix": "Flat fill, one colour."
+  },
+  {
+   "level": "FAIL",
+   "id": "outlined-box",
+   "width": 390,
+   "message": "10 boxes drawn with a 1px outline.",
+   "fix": "Define a surface by its fill (one tone step from the page) or leave the content unboxed."
+  },
+  {
+   "level": "FAIL",
+   "id": "icon-cards",
+   "width": 390,
+   "message": "1 row(s) of identical cards each topped with a small icon (3 cards).",
+   "fix": "Replace with one composed section from the direction: a narrative split, a list set in large type, or real imagery per item."
+  },
+  {
+   "level": "FAIL",
+   "id": "off-centre",
+   "width": 390,
+   "message": "The page sits off-centre: its content comes to 16px from the left edge but only to 54px from the right, at 390px.",
+   "fix": "Give the page one pair of equal margins. Check the wrapper for a max-width without margin-inline: auto, a grid with an empty last column, or padding on one side only. If one side is meant to hold air, it must still be closed by something that reaches the margin (a picture, the navigation's last item, a figure)."
+  },
+  {
+   "level": "FAIL",
+   "id": "edge-text",
+   "width": 390,
+   "message": "2 text block(s) sit within 12px of the screen edge: \"customer rating\" (0px from the right); \"average callback\" (0px from the right)",
+   "fix": "Keep text inside the page margin (16–20px). Only display type deliberately bled past the edge may touch it."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/alikhan/PycharmProjects/AnuarAGA_0.1/.taste-skill/inspect/desktop-fold.jpg",
+   "pages": [
+    "/Users/alikhan/PycharmProjects/AnuarAGA_0.1/.taste-skill/inspect/desktop-page-01.jpg",
+    "/Users/alikhan/PycharmProjects/AnuarAGA_0.1/.taste-skill/inspect/desktop-page-02.jpg",
+    "/Users/alikhan/PycharmProjects/AnuarAGA_0.1/.taste-skill/inspect/desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/alikhan/PycharmProjects/AnuarAGA_0.1/.taste-skill/inspect/tablet-fold.jpg",
+   "pages": [
+    "/Users/alikhan/PycharmProjects/AnuarAGA_0.1/.taste-skill/inspect/tablet-page-01.jpg",
+    "/Users/alikhan/PycharmProjects/AnuarAGA_0.1/.taste-skill/inspect/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/alikhan/PycharmProjects/AnuarAGA_0.1/.taste-skill/inspect/mobile-fold.jpg",
+   "pages": [
+    "/Users/alikhan/PycharmProjects/AnuarAGA_0.1/.taste-skill/inspect/mobile-page-01.jpg",
+    "/Users/alikhan/PycharmProjects/AnuarAGA_0.1/.taste-skill/inspect/mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
