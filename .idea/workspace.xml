@@ -6,19 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="17402c61-744f-4aca-91f4-0e86a4210d62" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components.json" beforeDir="false" afterPath="$PROJECT_DIR$/components.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Assets/index-DtB8Nfw7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Assets/index-i-gSGcON.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Assets/index-DP_wz7th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Assets/index-nVeNx_LT.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile_icons_prew.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/logo-marquee.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/logo-marquee.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text" beforeDir="false" afterPath="$PROJECT_DIR$/text" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Дизайн-документ платформа вызова мастера по ремонту техники (США) (1).md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +59,13 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "ai.playground.ignore.import.keys.banner.in.settings": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/alikhan/PycharmProjects/AnuarAGA_0.1/frontend/Assets",
+    "last_opened_file_path": "/Users/alikhan/PycharmProjects/AnuarAGA_0.1/frontend/Assets/icons_mobile",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable",
+    "settings.editor.selected.configurable": "ml.llm.LLMThirdPartyAiProvidersConfigurable",
     "ts.external.directory.path": "/Applications/PyCharm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
@@ -87,6 +79,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/Assets/icons_mobile" />
       <recent name="$PROJECT_DIR$/frontend/Assets" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/want_to_add" />
@@ -114,7 +107,7 @@
       <workItem from="1792681912924" duration="21000" />
       <workItem from="1792864104785" duration="16515000" />
       <workItem from="1792954816177" duration="7141000" />
-      <workItem from="1793111325158" duration="7099000" />
+      <workItem from="1793111325158" duration="12119000" />
     </task>
     <servers />
   </component>
