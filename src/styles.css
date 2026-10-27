@@ -122,6 +122,29 @@ section { position: relative; }
 .hero-sticker { position: absolute; z-index: 5; right: 12%; bottom: 15%; width: 94px; aspect-ratio: 1; display: grid; place-content: center; transform: rotate(-12deg); border-radius: 50%; background: var(--red); color: #fff; text-align: center; font: .82rem var(--label); line-height: 1.15; }
 .hero-sticker strong { font-size: .95rem; }
 
+.hero { background: var(--soft); color: var(--ink); }
+.hero-copy { max-width: 700px; }
+.hero-lede, .form-note { color: #b6bfd5; }
+.hero .zip-form { background: #f8f7f4; border-color: transparent; }
+.hero .zip-form input { color: var(--ink); }
+.hero .button-dark { background: #e32e37; }
+.hero .button-dark:hover { background: #ff5962; }
+.hero-stage { min-height: 620px; }
+.hero-stage::after { width: 52%; height: 12%; bottom: 12%; background: #3b4674; filter: blur(35px); opacity: .46; }
+.hero .hero-lede, .hero .form-note { color: #59565b; }
+.space-scene-shell { position: relative; width: min(100%, 680px); height: min(72vh, 650px); min-height: 470px; overflow: hidden; border-radius: 2rem; background: #090d1b; background-image: radial-gradient(circle at 50% 42%, #27345d 0, #111a35 34%, #090d1b 76%); }
+.space-scene-canvas { position: absolute; inset: 0; touch-action: pan-y; cursor: grab; }
+.space-scene-canvas:active { cursor: grabbing; }
+.space-scene-canvas canvas { display: block; width: 100% !important; height: 100% !important; }
+.space-scene-arrow { position: absolute; top: 50%; z-index: 4; width: 44px; height: 44px; display: grid; place-items: center; border: 1px solid #56617d; border-radius: 50%; background: rgba(9,13,27,.72); color: #f8f7f4; font-size: 1.25rem; transform: translateY(-50%); transition: border-color .2s ease, background .2s ease, transform .2s ease; }
+.space-scene-arrow:hover { border-color: #ff5962; background: #e32e37; transform: translateY(-50%) scale(1.06); }
+.space-scene-arrow-prev { left: 1%; }
+.space-scene-arrow-next { right: 1%; }
+.space-scene-caption { position: absolute; right: 3%; bottom: 8%; left: 3%; z-index: 3; display: flex; align-items: center; justify-content: space-between; color: #f8f7f4; font: 600 .82rem var(--label); letter-spacing: .04em; text-transform: uppercase; }
+.space-scene-dots { display: flex; gap: .55rem; }
+.space-scene-dots button { width: 34px; height: 4px; padding: 0; border: 0; background: #56617d; transition: background .25s ease, transform .25s ease; }
+.space-scene-dots button.active { background: #ff5962; transform: scaleY(1.6); }
+
 .brand-strip { overflow: hidden; background: var(--black); color: #fff; padding: 1.2rem 0; display: flex; align-items: center; gap: 2.5rem; }
 .strip-copy { flex: 0 0 auto; padding-left: clamp(1rem, 3vw, 3rem); color: #aaa7a8; font-size: .82rem; }
 .logo-marquee { min-width: 0; overflow: hidden; flex: 1; mask-image: linear-gradient(to right, transparent, black 12%, black 88%, transparent); }
