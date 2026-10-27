@@ -4,16 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17402c61-744f-4aca-91f4-0e86a4210d62" name="Changes" comment="" />
+    <list default="true" id="17402c61-744f-4aca-91f4-0e86a4210d62" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components.json" beforeDir="false" afterPath="$PROJECT_DIR$/components.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Assets/index-DtB8Nfw7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Assets/index-i-gSGcON.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile_icons_prew.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/logo-marquee.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/logo-marquee.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text" beforeDir="false" afterPath="$PROJECT_DIR$/text" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Дизайн-документ платформа вызова мастера по ремонту техники (США) (1).md" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="9" />
+    <option name="cachedIndexableFilesCount" value="226" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Cowspump&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Cowspump/repairUSA.git&quot;,
+    &quot;accountId&quot;: &quot;bf2f9d06-5c27-471f-8909-2e6aa4558b2b&quot;
+  }
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -33,9 +63,11 @@
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "ai.playground.ignore.import.keys.banner.in.settings": "true",
-    "last_opened_file_path": "/Users/alikhan/PycharmProjects/AnuarAGA_0.1",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/alikhan/PycharmProjects/AnuarAGA_0.1/frontend/Assets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,8 +87,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/frontend/Assets" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/want_to_add" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -81,6 +113,8 @@
       <workItem from="1792429682032" duration="2115000" />
       <workItem from="1792681912924" duration="21000" />
       <workItem from="1792864104785" duration="16515000" />
+      <workItem from="1792954816177" duration="7141000" />
+      <workItem from="1793111325158" duration="7099000" />
     </task>
     <servers />
   </component>

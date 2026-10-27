@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { AnimatedList } from "./components/react-bits/AnimatedList";
 import { Reveal } from "./components/react-bits/Reveal";
-import { Combobox } from "@animate-ui/react/primitives/base-ui/combobox";
 import { CountingNumber } from "@animate-ui/react/primitives/texts/counting-number";
 import { HighlightText } from "@animate-ui/react/primitives/texts/highlight";
 import { SplittingText } from "@animate-ui/react/primitives/texts/splitting";
@@ -13,13 +12,32 @@ import { placeholders } from "./data/placeholders";
 import { syncRepairUrl, useRepairStore } from "./store/repair-store";
 import { IconSlot } from "./components/ui/icon-slot";
 import { RepairQuestionnaire } from "./components/repair-questionnaire";
-import { ScrollTimeline } from "./components/lightswind/scroll-timeline";
 import { TrustedUsers } from "./components/lightswind/trusted-users";
 import { Calendar } from "./components/lightswind/calendar";
 import { ApplianceSpaceScene } from "./components/hero/ApplianceSpaceScene";
+import StackingCards, { StackingCardItem } from "./components/fancy/blocks/stacking-cards";
+import { cn } from "./lib/utils";
+import { ProcessTimeline } from "./components/process-timeline";
+import { LiquidMetalButton } from "./components/ui/liquid-metal-button";
 import "./styles.css";
 
-const brandLogos = ["Samsung", "LG", "Whirlpool", "GE", "Bosch", "Maytag", "KitchenAid"].map((name) => ({ src: `/brands/${name.toLowerCase()}.svg`, alt: name }));
+const brandLogos = [
+  ["Samsung", "https://cdn.simpleicons.org/samsung/f1efed"],
+  ["LG", "https://cdn.simpleicons.org/lg/f1efed"],
+  ["Whirlpool", "https://www.google.com/s2/favicons?domain=whirlpool.com&sz=128"],
+  ["GE", "https://cdn.simpleicons.org/generalelectric/f1efed"],
+  ["Bosch", "https://cdn.simpleicons.org/bosch/f1efed"],
+  ["Maytag", "https://cdn.simpleicons.org/maytag/f1efed"],
+  ["KitchenAid", "https://www.google.com/s2/favicons?domain=kitchenaid.com&sz=128"],
+  ["Electrolux", "https://www.google.com/s2/favicons?domain=electrolux.com&sz=128"],
+  ["Frigidaire", "https://www.google.com/s2/favicons?domain=frigidaire.com&sz=128"],
+  ["Miele", "https://www.google.com/s2/favicons?domain=miele.com&sz=128"],
+  ["Amana", "https://www.google.com/s2/favicons?domain=amana.com&sz=128"],
+  ["Hotpoint", "https://www.google.com/s2/favicons?domain=hotpoint.com&sz=128"],
+  ["Thermador", "https://www.google.com/s2/favicons?domain=thermador.com&sz=128"],
+  ["Viking", "https://www.google.com/s2/favicons?domain=vikingrange.com&sz=128"],
+  ["Fisher & Paykel", "https://www.google.com/s2/favicons?domain=fisherpaykel.com&sz=128"],
+].map(([alt, src]) => ({ alt, src }));
 
 function Header() {
   return <header className="site-header"><a className="brand" href="#top" aria-label="Super Master Appliance Repair home"><img src="/Assets/LOGO.png" alt="Super Master Appliance Repair" /></a><nav className="desktop-nav" aria-label="Main navigation"><a href="#repair">Repair</a><a href="#process">How it works</a><a href="#faq">FAQ</a></nav><div className="header-actions"><a className="phone-link" href="tel:+13125550123">(312) 555-0123</a><a className="button button-dark button-small" href="#book">Book a repair</a></div></header>;
@@ -31,11 +49,13 @@ function Hero() {
   return <section className="hero section-pad"><div className="hero-copy"><h1><SplittingText text="Our appliances, newer than ever." type="words" inView initial={{ x: 32, opacity: 0 }} /></h1><p className="hero-lede"><SplittingText text="A local repair professional for the machines that keep your home moving." type="words" inView initial={{ x: 32, opacity: 0 }} /></p><form className="zip-form" onSubmit={submit}><label className="sr-only" htmlFor="hero-zip">ZIP code</label><input id="hero-zip" value={zip} onChange={(event) => setZip(event.target.value.replace(/\D/g, "").slice(0, 5))} inputMode="numeric" autoComplete="postal-code" placeholder="Enter your ZIP" required /><button className="button button-dark" type="submit">Find a master</button></form><p className="form-note">Diagnostic visits from $89 · No spam, only repair help.</p></div><div className="hero-stage"><ApplianceSpaceScene /></div></section>;
 }
 
-function Brands() { return <section className="brand-strip"><div className="strip-copy">Brands we repair</div><LogoMarquee logos={brandLogos} /></section>; }
+function Brands() { return <section className="brand-strip"><div className="strip-copy">OEM brands we repair</div><LogoMarquee logos={brandLogos} /></section>; }
 
 function RepairPicker({ selectedAppliance, selectedIssue, setAppliance, setIssue }) {
   const [mobileAppliance, setMobileAppliance] = useState(null);
+  const [issueMenuOpen, setIssueMenuOpen] = useState(false);
   const sheetCloseRef = useRef(null);
+  const issueMenuRef = useRef(null);
   const appliance = appliances.find((item) => item.slug === selectedAppliance);
   const issueItems = getIssueOptions(appliance);
   const chooseAppliance = (slug) => {
@@ -57,14 +77,58 @@ function RepairPicker({ selectedAppliance, selectedIssue, setAppliance, setIssue
     document.addEventListener("keydown", onKeyDown);
     return () => document.removeEventListener("keydown", onKeyDown);
   }, [mobileAppliance]);
-  return <section className="repair-section section-pad" id="repair"><Reveal className="section-heading split-heading"><h2>What stopped working?</h2><p>Pick the appliance first. We’ll narrow down the problem before a master calls.</p></Reveal><div className="mobile-appliance-scene" aria-label="Choose an appliance"><p className="mobile-scene-label">Tap the appliance that needs attention</p>{appliances.slice(0, 8).map((item, index) => <button key={item.slug} className={`floating-appliance floating-appliance-${index + 1}`} type="button" aria-label={`Choose ${item.label}`} onClick={() => { chooseAppliance(item.slug); setMobileAppliance(item); }}><IconSlot label={item.label.slice(0, 2)} /><span>{item.label}</span></button>)}</div>{mobileAppliance && <div className="mobile-sheet-backdrop" role="presentation" onClick={() => setMobileAppliance(null)}><div className="mobile-sheet" role="dialog" aria-modal="true" aria-label={`${mobileAppliance.label} problem`} onClick={(event) => event.stopPropagation()}><button ref={sheetCloseRef} className="sheet-close" type="button" onClick={() => setMobileAppliance(null)} aria-label="Close appliance chooser">×</button><h3>What’s the symptom?</h3><p>Choose the closest match for your {mobileAppliance.label.toLowerCase()}.</p><div className="sheet-issues">{getIssueOptions(mobileAppliance).map((issue) => <button key={issue} type="button" className={`issue-chip ${selectedIssue === issue ? "active" : ""}`} onClick={() => chooseIssue(issue)}>{issue}</button>)}</div><a className="button button-red" href="#book" onClick={() => setMobileAppliance(null)}>Continue</a></div></div>}<div className="repair-picker"><AnimatedList items={appliances} active={selectedAppliance} onSelect={chooseAppliance} /><div className="issue-panel"><div className="issue-panel-top"><span className="selected-appliance-name">{appliance?.label || "Choose an appliance"}</span>{appliance && <button className="text-button" type="button" onClick={() => { setAppliance(""); setIssue(""); syncRepairUrl({ appliance: "", issue: "" }); }}>Back</button>}</div><h3>{appliance ? "What’s the symptom?" : "Start here"}</h3><p>{appliance ? `Choose the closest match for your ${appliance.label.toLowerCase()}.` : "Choose the appliance that needs attention. Common problems appear next."}</p>{appliance && <Combobox.Root items={issueItems} value={selectedIssue} onValueChange={chooseIssue}><Combobox.Input aria-label="Problem" placeholder="Search or choose a problem…" /><Combobox.Portal><Combobox.Positioner sideOffset={6}><Combobox.Popup><Combobox.Empty>No match. Choose “Other (describe it)”.</Combobox.Empty><Combobox.List>{(item) => <Combobox.Item key={item} value={item}>{item}<Combobox.ItemIndicator animation="pop">✓</Combobox.ItemIndicator></Combobox.Item>}</Combobox.List></Combobox.Popup></Combobox.Positioner></Combobox.Portal></Combobox.Root>}{selectedIssue === "Other (describe it)" && <input className="custom-issue" maxLength={300} required placeholder="Describe the problem" aria-label="Describe the problem" />}{appliance && <a className="button button-red issue-cta" href="#book">Continue to booking</a>}</div></div></section>;
+  useEffect(() => {
+    if (!issueMenuOpen) return undefined;
+    const handleClickOutside = (event) => {
+      if (issueMenuRef.current && !issueMenuRef.current.contains(event.target)) setIssueMenuOpen(false);
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [issueMenuOpen]);
+  return <section className="repair-section section-pad" id="repair"><Reveal className="section-heading split-heading"><h2>What stopped working?</h2><p>Pick the appliance first. We’ll narrow down the problem before a master calls.</p></Reveal><div className="mobile-appliance-scene" aria-label="Choose an appliance"><p className="mobile-scene-label">Tap the appliance that needs attention</p>{appliances.slice(0, 8).map((item, index) => <button key={item.slug} className={`floating-appliance floating-appliance-${index + 1}`} type="button" aria-label={`Choose ${item.label}`} onClick={() => { chooseAppliance(item.slug); setMobileAppliance(item); }}><IconSlot label={item.label.slice(0, 2)} /><span>{item.label}</span></button>)}</div>{mobileAppliance && <div className="mobile-sheet-backdrop" role="presentation" onClick={() => setMobileAppliance(null)}><div className="mobile-sheet" role="dialog" aria-modal="true" aria-label={`${mobileAppliance.label} problem`} onClick={(event) => event.stopPropagation()}><button ref={sheetCloseRef} className="sheet-close" type="button" onClick={() => setMobileAppliance(null)} aria-label="Close appliance chooser">×</button><h3>What’s the symptom?</h3><p>Choose the closest match for your {mobileAppliance.label.toLowerCase()}.</p><div className="sheet-issues">{getIssueOptions(mobileAppliance).map((issue) => <button key={issue} type="button" className={`issue-chip ${selectedIssue === issue ? "active" : ""}`} onClick={() => chooseIssue(issue)}>{issue}</button>)}</div><a className="button button-red" href="#book" onClick={() => setMobileAppliance(null)}>Continue</a></div></div>}<div className="repair-picker"><AnimatedList items={appliances} active={selectedAppliance} onSelect={chooseAppliance} /><div className="issue-panel"><div className="issue-panel-top"><span className="selected-appliance-name">{appliance?.label || "Choose an appliance"}</span>{appliance && <button className="text-button" type="button" onClick={() => { setAppliance(""); setIssue(""); syncRepairUrl({ appliance: "", issue: "" }); }}>Back</button>}</div><h3>{appliance ? "What’s the symptom?" : "Start here"}</h3><p>{appliance ? `Choose the closest match for your ${appliance.label.toLowerCase()}.` : "Choose the appliance that needs attention. Common problems appear next."}</p>{appliance &&     <div className="issue-combobox" ref={issueMenuRef}>
+    <div className="issue-combobox-heading">
+      <span>Choose the problem</span>
+      <small>Select a symptom from the list</small>
+    </div>
+    <button
+      className="issue-combobox-trigger"
+      type="button"
+      aria-haspopup="listbox"
+      aria-expanded={issueMenuOpen}
+      onClick={() => setIssueMenuOpen((open) => !open)}
+    >
+      <span>{selectedIssue || "Select a problem"}</span>
+      <span className={`issue-combobox-chevron ${issueMenuOpen ? "is-open" : ""}`} aria-hidden="true">⌄</span>
+    </button>
+    {issueMenuOpen && (
+      <div className="issue-dropdown" role="listbox" aria-label="Problem">
+        {issueItems.map((item, index) => (
+          <button
+            key={item}
+            className={`issue-dropdown-item ${selectedIssue === item ? "is-selected" : ""}`}
+            type="button"
+            role="option"
+            aria-selected={selectedIssue === item}
+            style={{ animationDelay: `${index * 30}ms` }}
+            onClick={() => {
+              chooseIssue(item);
+              setIssueMenuOpen(false);
+            }}
+          >
+            <span>{item}</span>
+            {selectedIssue === item && <span aria-hidden="true">✓</span>}
+          </button>
+        ))}
+      </div>
+    )}
+  </div>}{selectedIssue === "Other (describe it)" && <input className="custom-issue" maxLength={300} required placeholder="Describe the problem" aria-label="Describe the problem" />}{appliance && <a className="button button-red issue-cta" href="#book">Continue to booking</a>}</div></div></section>;
 }
 
-function Process() { const events = [["01", "Pick the appliance and the problem", "Choose what needs attention and tell us the symptom."], ["02", "A master calls you back", "We confirm your ZIP, timing and the visit details."], ["03", "It’s fixed", "Your master explains the repair and gets your appliance back to normal."]].map(([year, title, description]) => ({ year, title, description })); return <section className="process-section process-timeline-section" id="process"><ScrollTimeline events={events} title="How it works" subtitle="Three clear steps from problem to repair." animationOrder="sequential" cardAlignment="left" cardVariant="outlined" cardEffect="none" lineColor="bg-orange-200" activeColor="bg-orange-500" progressIndicator={true} revealAnimation="fade" connectorStyle="line" parallaxIntensity={0} darkMode={false} /></section>; }
+function Process() { const milestones = [["01", "Pick the appliance and the problem", "Choose what needs attention and tell us the symptom."], ["02", "A master calls you back", "We confirm your ZIP, timing and the visit details."], ["03", "It’s fixed", "Your master explains the repair and gets your appliance back to normal."]].map(([date, title, description]) => ({ id: date, date, title, description })); return <section className="process-section process-timeline-section section-pad" id="process"><div className="process-intro"><span className="section-note">HOW IT WORKS</span><h2>From problem to <HighlightText text="fixed." inView /></h2><p>Three clear steps from the first symptom to a working appliance.</p></div><ProcessTimeline milestones={milestones} /></section>; }
 
 function Numbers() { return <section className="numbers-section section-pad"><div className="number-card number-card-main"><strong><CountingNumber number={placeholders.stats.rating} decimalPlaces={1} inView /></strong><span>average rating</span></div><div className="number-card"><strong><CountingNumber number={placeholders.stats.callbackMinutes} inView delay={150} /></strong><span>min<br />typical call-back</span></div><div className="number-card"><strong><span>$</span><CountingNumber number={placeholders.stats.diagnosticPrice} inView delay={300} /></strong><span>diagnostic<br />visit from</span></div><div className="numbers-copy"><p>Clear pricing, a human call and a repair plan you can understand.</p></div></section>; }
 
-function FixGallery() { return <section className="fix-section section-pad" id="repairs"><Reveal className="section-heading"><h2>Good repairs look <HighlightText text="simple." inView /></h2><p className="reference-waiting">Reference layout is waiting for the owner’s component or screenshot.</p></Reveal><div className="fix-gallery"><figure className="fix-image fix-image-large" data-placeholder="replace-photo"><img src="/Assets/photos/service-1.jpg" alt="Placeholder: a clean home appliance being serviced" loading="lazy" width="1200" height="900" /><figcaption>Placeholder — careful diagnosis comes first.</figcaption></figure><figure className="fix-image fix-image-small" data-placeholder="replace-photo"><img src="/Assets/photos/service-2.jpg" alt="Placeholder: modern kitchen appliances" loading="lazy" width="800" height="600" /><figcaption>Placeholder — every brand. Every kitchen.</figcaption></figure><div className="fix-note">Clear answers.<br />Working appliances.</div><figure className="fix-image fix-image-medium" data-placeholder="replace-photo"><img src="/Assets/photos/service-3.jpg" alt="Placeholder: tools ready for a repair visit" loading="lazy" width="800" height="600" /><figcaption>Placeholder — prepared for the details.</figcaption></figure><figure className="fix-image fix-image-wide" data-placeholder="replace-photo"><img src="/Assets/photos/service-4.jpg" alt="Placeholder: close-up of a home interior" loading="lazy" width="1200" height="700" /><figcaption>Placeholder — back to the rhythm of your home.</figcaption></figure></div></section>; }
+function FixGallery() { const cards = [["bg-[#e32e37]", "Careful diagnosis first.", "We find the real problem before recommending the right repair.", "/Assets/photos/service-1.jpg"], ["bg-[#242326]", "Every brand. Every kitchen.", "Experienced help for the appliances your home depends on.", "/Assets/photos/service-2.jpg"], ["bg-[#f3f1ee] text-[#242326]", "Prepared for the details.", "The right tools, clear answers and a plan you can understand.", "/Assets/photos/service-3.jpg"], ["bg-[#b71f28]", "Back to your rhythm.", "A finished repair that gets your home moving again.", "/Assets/photos/service-4.jpg"]]; return <section className="fix-section section-pad" id="repairs"><Reveal className="section-heading"><h2>Good repairs look <HighlightText text="simple." inView /></h2><p>Clear answers, careful work and working appliances.</p></Reveal><StackingCards totalCards={cards.length} className="fix-stacking-cards">{cards.map(([background, title, description, image], index) => <StackingCardItem key={title} index={index} className="fix-stacking-card"><article className={cn("fix-stacking-card-inner", background)}><div className="fix-stacking-copy"><span className="section-note">0{index + 1} / REPAIR STANDARD</span><h3>{title}</h3><p>{description}</p></div><div className="fix-stacking-image"><img src={image} alt="" loading="lazy" /></div></article></StackingCardItem>)}</StackingCards></section>; }
 
 function Cities() { return <section className="cities-section section-pad"><div className="cities-copy"><h2>Chicago first.</h2><p>We’re starting with neighborhoods across Chicago. Enter your ZIP to check the current service area.</p><a className="text-link" href="#book">Check my ZIP <span>↗</span></a></div><div className="city-list">{[["Chicago, IL", "Now booking"], ["Milwaukee, WI", "Coming soon"], ["Indianapolis, IN", "Coming soon"], ["Detroit, MI", "Coming soon"]].map(([city, status], index) => <button className={`city-row ${index === 0 ? "active" : ""}`} type="button" key={city}><span>{city}</span><small>{status}</small></button>)}</div></section>; }
 
@@ -78,7 +142,40 @@ function Reviews() {
   return <section className="reviews-section section-pad"><Reveal className="section-heading split-heading"><h2><HighlightText text="Neighbors tell it straight." inView /></h2><p>Real stories belong in motion: pause the rail to read, then keep moving.</p></Reveal><p className="demo-marker">// TODO: replace with real reviews before launch</p><TrustedUsers avatars={["data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Crect width='40' height='40' fill='%23ffeadf'/%3E%3Ctext x='20' y='25' text-anchor='middle' font-family='Arial' font-size='14' fill='%23c2410c'%3ED1%3C/text%3E%3C/svg%3E", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Crect width='40' height='40' fill='%23ffe4d6'/%3E%3Ctext x='20' y='25' text-anchor='middle' font-family='Arial' font-size='14' fill='%23c2410c'%3ED2%3C/text%3E%3C/svg%3E", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Crect width='40' height='40' fill='%23ffd8c7'/%3E%3Ctext x='20' y='25' text-anchor='middle' font-family='Arial' font-size='14' fill='%23c2410c'%3ED3%3C/text%3E%3C/svg%3E"]} rating={5} totalUsersText={3} caption="Demo reviews from" className="trusted-users" /><InfiniteMovingCards items={items} speed="slow" direction="left" /></section>;
 }
 
-function FAQ() { const questions = [["How much is a diagnostic visit?", "Diagnostic visits start at $89 in the current Chicago service area. Your master confirms the visit details before work begins."], ["How soon can someone call?", "Most requests receive a call within 45 minutes during service hours. For urgent issues, choose ASAP in the booking form."], ["What appliances do you repair?", "Washers, dryers, refrigerators, dishwashers, ovens, ranges, cooktops, microwaves and other common household appliances."], ["Do you cover my ZIP code?", "We currently serve Chicago and nearby neighborhoods. Add your five-digit ZIP in the form and we’ll confirm coverage before scheduling."], ["Is the repair guaranteed?", "Warranty details depend on the repair and part used. Your master explains what is covered on the estimate."], ["Can I book by phone?", <>Yes. Call <a href="tel:+13125550123">(312) 555-0123</a> and a member of the team will help.</>]]; return <section className="faq-section section-pad" id="faq"><div className="faq-title"><h2>Questions, answered.</h2></div><div className="faq-list">{questions.map(([question, answer]) => <details key={question}><summary>{question}</summary><p>{answer}</p></details>)}</div></section>; }
+function FAQ() {
+  const questions = [
+    ["How much is a diagnostic visit?", "Diagnostic visits start at $89 in the current Chicago service area. Your master confirms the visit details before work begins."],
+    ["How soon can someone call?", "Most requests receive a call within 45 minutes during service hours. For urgent issues, choose ASAP in the booking form."],
+    ["What appliances do you repair?", "Washers, dryers, refrigerators, dishwashers, ovens, ranges, cooktops, microwaves and other common household appliances."],
+    ["Do you cover my ZIP code?", "We currently serve Chicago and nearby neighborhoods. Add your five-digit ZIP in the form and we’ll confirm coverage before scheduling."],
+    ["Is the repair guaranteed?", "Warranty details depend on the repair and part used. Your master explains what is covered on the estimate."],
+    ["Can I book by phone?", <>Yes. Call <a href="tel:+13125550123">(312) 555-0123</a> and a member of the team will help.</>],
+  ];
+
+  return (
+    <section className="faq-section section-pad" id="faq">
+      <div className="faq-title">
+        <span className="section-note">FAQ</span>
+        <h2>Questions, answered.</h2>
+        <p>Clear answers before you invite a master into your home.</p>
+        <a className="faq-call-link" href="tel:+13125550123">
+          Prefer to talk? Call (312) 555-0123 <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+      <div className="faq-list">
+        {questions.map(([question, answer], index) => (
+          <details key={question} open={index === 0}>
+            <summary>
+              <span className="faq-question-number">0{index + 1}</span>
+              <span>{question}</span>
+            </summary>
+            <p>{answer}</p>
+          </details>
+        ))}
+      </div>
+    </section>
+  );
+}
 
 function BookingForm({ selectedAppliance, selectedIssue }) {
   const [step, setStep] = useState(1); const [submitted, setSubmitted] = useState(false); const [calendarOpen, setCalendarOpen] = useState(false); const [form, setForm] = useState({ appliance: selectedAppliance, issue: selectedIssue, zip: "", time: "", date: "", name: "", phone: "", sms: false }); const appliance = appliances.find((item) => item.slug === form.appliance); const update = (key, value) => setForm((current) => ({ ...current, [key]: value })); const today = new Date(); const maxDate = new Date(today); maxDate.setDate(today.getDate() + 60);
@@ -89,6 +186,6 @@ function BookingForm({ selectedAppliance, selectedIssue }) {
 
 function Footer() { return <footer className="site-footer"><div className="footer-top"><img src="/Assets/LOGO.png" alt="Super Master Appliance Repair" /><a className="button button-red" href="#book">Book a repair</a></div><div className="footer-bottom"><div><p>Chicago appliance repair, made human.</p><a href="tel:+13125550123">(312) 555-0123</a></div><div className="footer-links"><a href="#repair">Repair</a><a href="#faq">FAQ</a><a href="#book">Contact</a><a href="#">Privacy</a></div></div><div className="footer-wordmark">SUPER MASTER</div><p className="credits">Photography: Unsplash contributors, used as atmospheric service imagery. Replace with approved project photography before launch.</p></footer>; }
 
-function App() { const storedAppliance = useRepairStore((state) => state.appliance); const storedIssue = useRepairStore((state) => state.issue); const setAnswers = useRepairStore((state) => state.setAnswers); const [selectedAppliance, setSelectedAppliance] = useState(storedAppliance); const [selectedIssue, setSelectedIssue] = useState(storedIssue); useEffect(() => { setAnswers({ appliance: selectedAppliance, issue: selectedIssue }); }, [selectedAppliance, selectedIssue, setAnswers]); return <><Header /><main id="top"><Hero /><Brands /><RepairPicker selectedAppliance={selectedAppliance} selectedIssue={selectedIssue} setAppliance={setSelectedAppliance} setIssue={setSelectedIssue} /><Process /><Numbers /><FixGallery /><Cities /><Reviews /><FAQ /><BookingForm selectedAppliance={selectedAppliance} selectedIssue={selectedIssue} /></main><Footer /></>; }
+function App() { const storedAppliance = useRepairStore((state) => state.appliance); const storedIssue = useRepairStore((state) => state.issue); const setAnswers = useRepairStore((state) => state.setAnswers); const [selectedAppliance, setSelectedAppliance] = useState(storedAppliance); const [selectedIssue, setSelectedIssue] = useState(storedIssue); useEffect(() => { setAnswers({ appliance: selectedAppliance, issue: selectedIssue }); }, [selectedAppliance, selectedIssue, setAnswers]); return <><Header /><main id="top"><Hero /><Brands /><RepairPicker selectedAppliance={selectedAppliance} selectedIssue={selectedIssue} setAppliance={setSelectedAppliance} setIssue={setSelectedIssue} /><Process /><Numbers /><FixGallery /><Cities /><Reviews /><FAQ /><BookingForm selectedAppliance={selectedAppliance} selectedIssue={selectedIssue} /></main><Footer /><LiquidMetalButton label="Call us" phone="+13125550123" /></>; }
 
 createRoot(document.getElementById("root")).render(<App />);
