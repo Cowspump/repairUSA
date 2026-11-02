@@ -1,7 +1,4 @@
 {
   "cleanUrls": true,
-  "trailingSlash": true,
-  "rewrites": [
-    { "source": "/((?!assets/|fonts/|_vercel/|favicon\\.ico|icon-.*\\.(png|svg|webp)$).*)", "destination": "/index.html" }
-  ]
+  "trailingSlash": true
 }
