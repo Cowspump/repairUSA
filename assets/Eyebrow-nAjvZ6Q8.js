@@ -1,0 +1,1 @@
+import{v as e}from"./stats-ui-CMU_bDnF.js";var t=e();function n({children:e,align:n=`left`,style:r}){return(0,t.jsx)(`p`,{style:{color:`#1173c1`,fontWeight:700,letterSpacing:1,textTransform:`uppercase`,fontSize:13,margin:`0 0 8px`,textAlign:n,...r},children:e})}export{n as t};

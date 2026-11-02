@@ -1,0 +1,1 @@
+import{v as e}from"./stats-ui-CMU_bDnF.js";var t=e();function n({children:e,style:n,highlight:r,as:i=`div`,...a}){return(0,t.jsx)(i,{style:{background:r?`rgba(17,115,193,0.06)`:`#ffffff`,border:r?`1px solid #1173c1`:`1px solid rgba(18,35,63,0.12)`,boxShadow:`0 1px 3px rgba(18,35,63,0.06)`,borderRadius:20,padding:28,...n},...a,children:e})}export{n as t};
