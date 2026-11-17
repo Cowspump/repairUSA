@@ -1,18 +1,7 @@
 {
-  "cleanUrls": true,
-  "trailingSlash": true,
   "headers": [
     {
       "source": "/assets/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=86400, stale-while-revalidate=604800"
-        }
-      ]
-    },
-    {
-      "source": "/assets/(.*\\.[a-f0-9]{12}\\.(js|css))",
       "headers": [
         {
           "key": "Cache-Control",

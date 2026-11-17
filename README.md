@@ -1,34 +1,22 @@
 # Super Master Appliance
 
-Static website for Super Master Appliance, ready for deployment on Vercel.
+Одностраничный React/Vite-сайт для Super Master Appliance.
 
-## Deploy
-
-Import this repository into Vercel with the project root set to this directory. No build command or install step is required; Vercel serves `index.html` and the static assets directly.
-
-For local preview:
+## Разработка и деплой
 
 ```bash
-npm run serve
-```
-
-## Деплой и кэш
-
-Репозиторий использует готовый статический Vite-бандл без исходников и сборочной конфигурации.
-
-- Перед деплоем выполните `npm run build`. Скрипт добавляет хеш содержимого к именам файлов в `assets/` и обновляет ссылки.
-- HTML и маршруты страниц не кэшируются (`Cache-Control: public, max-age=0, must-revalidate`).
-- JS/CSS с хешем в имени кэшируются на год как immutable.
-- Остальные файлы в `assets/` перепроверяются и могут использовать краткий длительный срок с stale-while-revalidate.
-- Картинки и шрифты без хеша имеют умеренное кэширование, поэтому изменённые файлы следует выпускать под новым именем.
-- Не добавляйте ручные `?v=` версии. Любое изменённое содержимое в `assets/` должно получить новое хешированное имя.
-
-Рекомендуемый выпуск:
-
-```bash
+npm install
+npm run dev
 npm run build
-git add -A
-git diff --cached --stat
-git commit -m "build: release hashed assets"
-git push origin main
+npm run preview
+npm run check
 ```
+
+Vercel: Build Command `npm run build`, Output Directory `dist`.
+
+## Кэширование
+
+- `index.html` и страницы возвращаются с `Cache-Control: public, max-age=0, must-revalidate`.
+- Хешированные файлы Vite в `dist/assets/` кэшируются на год как `immutable`.
+- Файлы из `public/` без хеша (favicon, sitemap, llms.txt) перепроверяются при каждом запросе.
+- Не редактируйте `dist/` вручную и не используйте `?v=`: Vite создаёт новое имя при изменении содержимого.

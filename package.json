@@ -1,9 +1,21 @@
 {
+  "name": "super-master-appliance",
   "private": true,
+  "version": "1.0.0",
+  "type": "module",
   "scripts": {
-    "hash-assets": "node scripts/hash-assets.mjs",
-    "check-deploy": "node scripts/check-deploy.mjs",
-    "build": "npm run hash-assets && npm run check-deploy",
-    "serve": "python3 -m http.server 4173"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "npm run build && node scripts/check-dist.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-leaflet": "^5.0.0",
+    "vite": "^7.1.7"
   }
 }
