@@ -53,12 +53,12 @@
     const heroBackground = hero.querySelector('.hero-background');
     if (heroBackground) {
       if (window.innerWidth < 640) {
-        heroBackground.src = '/assets/MOBILEBACKGROUND.webp?v=20261118';
+        heroBackground.src = '/assets/MOBILEBACKGROUND.webp?v=20261118-2';
         heroBackground.removeAttribute('srcset');
         heroBackground.style.objectPosition = '50% 50%';
       } else {
-        heroBackground.src = '/assets/MOBILEBACKGROUND.webp?v=20261118';
-        heroBackground.srcset = '/assets/MOBILEBACKGROUND.webp?v=20261118 900w, /assets/hero-team2.webp?v=20261118 1920w';
+        heroBackground.src = '/assets/MOBILEBACKGROUND.webp?v=20261118-2';
+        heroBackground.srcset = '/assets/MOBILEBACKGROUND.webp?v=20261118-2 900w, /assets/hero-team2.webp?v=20261118-2 1920w';
         heroBackground.sizes = '100vw';
         heroBackground.style.objectPosition = '50% 40%';
       }
