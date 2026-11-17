@@ -53,12 +53,12 @@
     const heroBackground = hero.querySelector('.hero-background');
     if (heroBackground) {
       if (window.innerWidth < 640) {
-        heroBackground.src = '/assets/MOBILEBACKGROUND.webp?v=20261118-2';
+        heroBackground.src = '/assets/MOBILEBACKGROUND.5943a2442443.webp';
         heroBackground.removeAttribute('srcset');
         heroBackground.style.objectPosition = '50% 50%';
       } else {
-        heroBackground.src = '/assets/MOBILEBACKGROUND.webp?v=20261118-2';
-        heroBackground.srcset = '/assets/MOBILEBACKGROUND.webp?v=20261118-2 900w, /assets/hero-team2.webp?v=20261118-2 1920w';
+        heroBackground.src = '/assets/MOBILEBACKGROUND.5943a2442443.webp';
+        heroBackground.srcset = '/assets/MOBILEBACKGROUND.5943a2442443.webp 900w, /assets/hero-team2.579df22dd331.webp 1920w';
         heroBackground.sizes = '100vw';
         heroBackground.style.objectPosition = '50% 40%';
       }
@@ -66,11 +66,11 @@
     root.querySelectorAll('#about-1,.why-supermaster-photo,#step,.supermaster-brands-track').forEach(element => element.remove());
     if (!root.querySelector('.sma-tech-services')) {
       const techImages = [
-        ['Refrigerator repair', '/assets/tech_images/refrigerator-repair-Northridge.webp'],
-        ['Washer repair', '/assets/tech_images/washing-machine-repair-Northridge.webp'],
-        ['Dryer repair', '/assets/tech_images/dryer-repair-Northridge.webp'],
-        ['Oven repair', '/assets/tech_images/oven-repair-Northridge.webp'],
-        ['Dishwasher repair', '/assets/tech_images/dishwasher-repair-Northridge.webp']
+        ['Refrigerator repair', '/assets/tech_images/refrigerator-repair-Northridge.63f70b905cc0.webp'],
+        ['Washer repair', '/assets/tech_images/washing-machine-repair-Northridge.76ffb752c0fd.webp'],
+        ['Dryer repair', '/assets/tech_images/dryer-repair-Northridge.d3d52c7c36af.webp'],
+        ['Oven repair', '/assets/tech_images/oven-repair-Northridge.aa774439b3fe.webp'],
+        ['Dishwasher repair', '/assets/tech_images/dishwasher-repair-Northridge.f8743e303574.webp']
       ];
       const techSection = document.createElement('section');
       techSection.className='elementor-element elementor-element-87382e4 e-flex e-con-boxed e-con e-parent e-lazyloaded sma-tech-services';
@@ -83,25 +83,25 @@
           name: 'Nathan P.',
           title: 'Appliance repair customer - April 24, 2024',
           description: 'GE oven and microwave, back in place after being removed for repairs.',
-          image: '/assets/photos/1/pech.png'
+          image: '/assets/photos/1/pech.8ed3fe26c4b8.png'
         },
         {
           name: 'Elmhurst, IL homeowner',
           title: 'Dryer vent cleaning',
           description: 'Dryer vent cleaning in Elmhurst, IL. Bird nest blockage caused poor airflow, longer drying times, and fire hazard.',
-          image: '/assets/photos/2/second.jpg'
+          image: '/assets/photos/2/second.fee1094c8924.jpg'
         },
         {
           name: 'Super Master Appliance',
           title: 'Oven repair - August 20, 2024',
           description: 'Oven repair.',
-          image: '/assets/photos/3/third.png'
+          image: '/assets/photos/3/third.9546942b45ff.png'
         },
         {
           name: 'Super Master Appliance',
           title: 'LG washer repair - August 21, 2024',
           description: 'LG washer repair.',
-          image: '/assets/photos/4/four.png'
+          image: '/assets/photos/4/four.6031b5fa996d.png'
         }
       ];
       const carousel = document.createElement('section');

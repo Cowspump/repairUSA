@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "hash-assets": "node scripts/hash-assets.mjs",
+    "check-deploy": "node scripts/check-deploy.mjs",
+    "build": "npm run hash-assets && npm run check-deploy",
+    "serve": "python3 -m http.server 4173"
+  }
+}
